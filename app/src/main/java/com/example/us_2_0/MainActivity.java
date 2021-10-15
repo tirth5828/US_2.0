@@ -8,7 +8,7 @@ import android.view.View;
 import com.sawolabs.androidsdk.Sawo;
 
 public class MainActivity extends AppCompatActivity {
-
+//Trying to figure out how things work
     private Handler H = new Handler();
 
     @Override
