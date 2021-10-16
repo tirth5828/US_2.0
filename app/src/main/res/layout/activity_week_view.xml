@@ -19,13 +19,13 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Back"
-            android:backgroundTint="@color/gray"
-            android:textColor="@color/white"
             android:background="@null"
-            android:textStyle="bold"
+            android:backgroundTint="@color/gray"
             android:onClick="previousWeekAction"
-            android:textSize="20sp"/>
+            android:text="-"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/monthYearTV"
@@ -41,13 +41,13 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Forward"
-            android:backgroundTint="@color/gray"
-            android:textColor="@color/white"
             android:background="@null"
-            android:textStyle="bold"
+            android:backgroundTint="@color/gray"
             android:onClick="nextWeekAction"
-            android:textSize="20sp"/>
+            android:text="+"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
     </LinearLayout>
 

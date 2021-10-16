@@ -5,4 +5,12 @@
     <string name="N1">Changed</string>
     <string name="Now"><a href="https://meet.google.com/vdt-gysa-bxs">Now -  CS201 Class</a></string>
     <string name="Next"><a href="https://meet.google.com/cso-hyuj-xuq">Next -  MA201 Class</a></string>
+    <string name="R1"><a href="https://drive.google.com/file/d/1c9C0ubLA0DcjGN4nAK-7G2kcw2liTFY9/view?usp=sharing">CS201</a></string>
+    <string name="R2"><a href="https://drive.google.com/file/d/1c9C0ubLA0DcjGN4nAK-7G2kcw2liTFY9/view?usp=sharing">CS203</a></string>
+    <string name="R3"><a href="https://drive.google.com/file/d/1c9C0ubLA0DcjGN4nAK-7G2kcw2liTFY9/view?usp=sharing">EC201</a></string>
+    <string name="R4"><a href="https://drive.google.com/file/d/1c9C0ubLA0DcjGN4nAK-7G2kcw2liTFY9/view?usp=sharing">MA201</a></string>
+    <string name="R5"><a href="https://drive.google.com/file/d/1c9C0ubLA0DcjGN4nAK-7G2kcw2liTFY9/view?usp=sharing">SC201</a></string>
+    <string name="R6"><a href="https://drive.google.com/drive/folders/1f1SuKOru1_IuRb4FtyQTTuUNQ_9ve-4-?usp=sharing">Previous Year Paper</a></string>
+    <string name="R7"><a href="https://drive.google.com/drive/folders/1VnX6FZM9jxg_ZJJLrrrz7zVUbh8uX-Qe?usp=sharing">Labs</a></string>
+
 </resources>

@@ -92,6 +92,10 @@ public class LandingPage extends AppCompatActivity {
                 //onclick rate
                 break;
 
+            case R.id.Resources:
+                startActivity(new Intent(LandingPage.this,Resources.class));
+                break;
+
             case R.id.This_Week:
                 startActivity(new Intent(LandingPage.this,WeekViewActivity.class));
                 break;
