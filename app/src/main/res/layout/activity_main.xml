@@ -9,22 +9,22 @@
 
     <com.spark.submitbutton.SubmitButton
 
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:onClick="Log"
         android:text="Login"
         android:textColor="@color/gray"
-        android:layout_height="50sp"
-        android:layout_width="match_parent"
-        android:onClick="Log"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.959"
+        app:layout_constraintVertical_bias="0.954"
         app:sub_btn_background="@color/white"
         app:sub_btn_duration="3000"
         app:sub_btn_line_color="@color/black"
         app:sub_btn_ripple_color="#0000FF"
-        app:sub_btn_tick_color="@color/white"
-        />
+        app:sub_btn_tick_color="@color/white" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
