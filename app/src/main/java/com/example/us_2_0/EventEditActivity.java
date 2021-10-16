@@ -28,6 +28,8 @@ public class EventEditActivity extends AppCompatActivity
         time = LocalTime.now();
         eventDateTV.setText("Date: " + CalendarUtils.formattedDate(CalendarUtils.selectedDate));
         eventTimeTV.setText("Time: " + CalendarUtils.formattedTime(time));
+
+
     }
 
     private void initWidgets()
