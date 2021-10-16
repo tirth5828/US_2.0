@@ -12,12 +12,15 @@ import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.widget.Toolbar;
 
 import java.time.LocalDate;
 import java.time.LocalTime;
@@ -38,6 +41,127 @@ public class WeekViewActivity extends AppCompatActivity implements CalendarAdapt
         initWidgets();
         CalendarUtils.selectedDate = LocalDate.now();
         setWeekView();
+
+
+        eventListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                if (position==0){
+                    Uri uri = Uri.parse("https://classroom.google.com/c/MjQwNjEwNzU0NzIy/a/MjQwNjEyNjY5NTQ2/details");
+                    Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+                    startActivity(intent);
+                    Toast.makeText(getApplicationContext(), "This is just a demo link", Toast.LENGTH_SHORT).show();
+                } else if (position==1){
+                    Uri uri = Uri.parse("https://classroom.google.com/c/MjQyNTk1MjQwOTYw/a/MTg2MjQ0NzYzOTk2/details");
+                    Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+                    startActivity(intent);
+                    Toast.makeText(getApplicationContext(), "This is just a demo link", Toast.LENGTH_SHORT).show();
+                } else if (position==2){
+                    Uri uri = Uri.parse("https://classroom.google.com/c/MzEzNjcyNjMzNjM0/a/MzI3MTkxOTA0MDQy/details");
+                    Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+                    startActivity(intent);
+                    Toast.makeText(getApplicationContext(), "This is just a demo link", Toast.LENGTH_SHORT).show();
+                }else if (position==3){
+                    Uri uri = Uri.parse("https://classroom.google.com/c/MjQwNjEwNzU0NzIy/a/MjQzNjQ4NTQyMjUy/details");
+                    Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+                    startActivity(intent);
+                    Toast.makeText(getApplicationContext(), "This is just a demo link", Toast.LENGTH_SHORT).show();
+                }else if (position==4){
+                    Uri uri = Uri.parse("https://classroom.google.com/c/MzEzNjcyNjMzNjM0/a/MzI5NDQzOTQ4NTI2/details");
+                    Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+                    startActivity(intent);
+                    Toast.makeText(getApplicationContext(), "This is just a demo link", Toast.LENGTH_SHORT).show();
+                }else if (position==5){
+                    Uri uri = Uri.parse("https://classroom.google.com/c/MjQyNTk1MjQwOTYw/a/MjQ4NzI3NjgyOTk0/details");
+                    Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+                    startActivity(intent);
+                    Toast.makeText(getApplicationContext(), "This is just a demo link", Toast.LENGTH_SHORT).show();
+                }else if (position==6){
+                    Uri uri = Uri.parse("https://classroom.google.com/c/MjQwNjEwNzU0NzIy/a/MTg2MzIxMjAxODM0/details");
+                    Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+                    startActivity(intent);
+                    Toast.makeText(getApplicationContext(), "This is just a demo link", Toast.LENGTH_SHORT).show();
+                }else if (position==7){
+                    Uri uri = Uri.parse("https://betamoodle.iiitvadodara.ac.in/login/index.php");
+                    Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+                    startActivity(intent);
+                    Toast.makeText(getApplicationContext(), "This is just a demo link", Toast.LENGTH_SHORT).show();
+                }else if (position==8){
+                    Uri uri = Uri.parse("https://betamoodle.iiitvadodara.ac.in/login/index.php");
+                    Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+                    startActivity(intent);
+                    Toast.makeText(getApplicationContext(), "This is just a demo link", Toast.LENGTH_SHORT).show();
+                }else if (position==9){
+                    Uri uri = Uri.parse("https://betamoodle.iiitvadodara.ac.in/login/index.php");
+                    Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+                    startActivity(intent);
+                    Toast.makeText(getApplicationContext(), "This is just a demo link", Toast.LENGTH_SHORT).show();
+                }else if (position==10){
+                    Uri uri = Uri.parse("https://meet.google.com/trp-rnxf-uzm");
+                    Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+                    startActivity(intent);
+                    Toast.makeText(getApplicationContext(), "This is just a demo link", Toast.LENGTH_SHORT).show();
+                }else if (position==11){
+                    Uri uri = Uri.parse("https://meet.google.com/trp-rnxf-uzm");
+                    Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+                    startActivity(intent);
+                    Toast.makeText(getApplicationContext(), "This is just a demo link", Toast.LENGTH_SHORT).show();
+                }else if (position==12){
+                    Uri uri = Uri.parse("https://meet.google.com/trp-rnxf-uzm");
+                    Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+                    startActivity(intent);
+                    Toast.makeText(getApplicationContext(), "This is just a demo link", Toast.LENGTH_SHORT).show();
+                }else if (position==13){
+                    Uri uri = Uri.parse("https://meet.google.com/trp-rnxf-uzm");
+                    Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+                    startActivity(intent);
+                    Toast.makeText(getApplicationContext(), "This is just a demo link", Toast.LENGTH_SHORT).show();
+                }else if (position==14){
+                    Uri uri = Uri.parse("https://meet.google.com/trp-rnxf-uzm");
+                    Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+                    startActivity(intent);
+                    Toast.makeText(getApplicationContext(), "This is just a demo link", Toast.LENGTH_SHORT).show();
+                }else if (position==15){
+                    Uri uri = Uri.parse("https://meet.google.com/trp-rnxf-uzm");
+                    Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+                    startActivity(intent);
+                    Toast.makeText(getApplicationContext(), "This is just a demo link", Toast.LENGTH_SHORT).show();
+                }else if (position==16){
+                    Uri uri = Uri.parse("https://meet.google.com/trp-rnxf-uzm");
+                    Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+                    startActivity(intent);
+                    Toast.makeText(getApplicationContext(), "This is just a demo link", Toast.LENGTH_SHORT).show();
+                }else if (position==17){
+                    Uri uri = Uri.parse("https://meet.google.com/trp-rnxf-uzm");
+                    Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+                    startActivity(intent);
+                    Toast.makeText(getApplicationContext(), "This is just a demo link", Toast.LENGTH_SHORT).show();
+                }else if (position==18){
+                    Uri uri = Uri.parse("https://meet.google.com/trp-rnxf-uzm");
+                    Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+                    startActivity(intent);
+                    Toast.makeText(getApplicationContext(), "This is just a demo link", Toast.LENGTH_SHORT).show();
+                }else if (position==19){
+                    Uri uri = Uri.parse("https://meet.google.com/trp-rnxf-uzm");
+                    Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+                    startActivity(intent);
+                    Toast.makeText(getApplicationContext(), "This is just a demo link", Toast.LENGTH_SHORT).show();
+                }else if (position==20){
+                    Uri uri = Uri.parse("https://meet.google.com/trp-rnxf-uzm");
+                    Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+                    startActivity(intent);
+                    Toast.makeText(getApplicationContext(), "This is just a demo link", Toast.LENGTH_SHORT).show();
+                }else if (position==21){
+                    Uri uri = Uri.parse("https://meet.google.com/trp-rnxf-uzm");
+                    Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+                    startActivity(intent);
+                    Toast.makeText(getApplicationContext(), "This is just a demo link", Toast.LENGTH_SHORT).show();
+                }
+
+
+
+            }
+        });
 
         Event sampleEvent = new Event("Maths Assignment 1",LocalDate.of(2021,10,16), LocalTime.of(12,00,00));
         Event.eventsList.add(sampleEvent);
@@ -186,4 +310,7 @@ public class WeekViewActivity extends AppCompatActivity implements CalendarAdapt
     {
         startActivity(new Intent(this, EventEditActivity.class));
     }
+
+
+
 }
