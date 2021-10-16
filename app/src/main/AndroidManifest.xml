@@ -12,6 +12,9 @@
         android:theme="@style/Theme.US_2_0"
         tools:replace="android:allowBackup,android:theme,android:icon,android:roundIcon">
         <activity
+            android:name=".MonthViewActivity"
+            android:exported="true" />
+        <activity
             android:name=".WeekViewActivity"
             android:exported="true" />
         <activity

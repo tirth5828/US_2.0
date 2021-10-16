@@ -30,8 +30,6 @@ public class LandingPage extends AppCompatActivity {
 
     private ActionBarDrawerToggle actionBarDrawerToggle;
 
-    private TextView monthYearText;
-    private RecyclerView calendarRecyclerView;
 
     @RequiresApi(api = Build.VERSION_CODES.O)
     @Override
@@ -39,9 +37,6 @@ public class LandingPage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_landing_page);
 
-        initWidgets();
-        CalendarUtils.selectedDate = LocalDate.now();
-        setMonthView();
 
 
 
@@ -98,7 +93,7 @@ public class LandingPage extends AppCompatActivity {
                 break;
 
             case R.id.This_Month:
-                // onclick This_Month
+                startActivity(new Intent(LandingPage.this,MonthViewActivity.class));
                 break;
 
             case R.id.privacy:
@@ -132,60 +127,6 @@ public class LandingPage extends AppCompatActivity {
         MenuInflater menuInflater = getMenuInflater();
         menuInflater.inflate(R.menu.action_bar_menu,menu);
         return super.onCreateOptionsMenu(menu);
-    }
-    private void initWidgets()
-    {
-        calendarRecyclerView = findViewById(R.id.calendarRecyclerView);
-        monthYearText = findViewById(R.id.monthYearTV);
-    }
-
-    @RequiresApi(api = Build.VERSION_CODES.O)
-    private void setMonthView()
-    {
-        monthYearText.setText(monthYearFromDate(CalendarUtils.selectedDate));
-        ArrayList<LocalDate> daysInMonth = daysInMonthArray(CalendarUtils.selectedDate);
-
-        CalendarAdapter calendarAdapter = new CalendarAdapter(daysInMonth, this::onItemClick);
-        RecyclerView.LayoutManager layoutManager = new GridLayoutManager(getApplicationContext(), 7);
-        calendarRecyclerView.setLayoutManager(layoutManager);
-        calendarRecyclerView.setAdapter(calendarAdapter);
-    }
-
-    @RequiresApi(api = Build.VERSION_CODES.O)
-    private String monthYearFromDate(LocalDate date)
-    {
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MMMM yyyy");
-        return date.format(formatter);
-    }
-
-    @RequiresApi(api = Build.VERSION_CODES.O)
-    public void previousMonthAction(View view)
-    {
-        CalendarUtils.selectedDate = CalendarUtils.selectedDate.minusMonths(1);
-        setMonthView();
-    }
-
-    @RequiresApi(api = Build.VERSION_CODES.O)
-    public void nextMonthAction(View view)
-    {
-        CalendarUtils.selectedDate = CalendarUtils.selectedDate.plusMonths(1);
-        setMonthView();
-    }
-
-    @RequiresApi(api = Build.VERSION_CODES.O)
-    public void onItemClick(int position, LocalDate date)
-    {
-        if(date != null)
-        {
-            CalendarUtils.selectedDate = date;
-            setMonthView();
-        }
-    }
-
-
-    public void weeklyAction(View view)
-    {
-        startActivity(new Intent(this, WeekViewActivity.class));
     }
 
 }
