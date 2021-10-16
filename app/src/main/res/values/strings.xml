@@ -3,4 +3,6 @@
     <string name="drawer_open">Drawer Open</string>
     <string name="drawer_close">Drawer Close</string>
     <string name="N1">Changed</string>
+    <string name="Now"><a href="https://meet.google.com/vdt-gysa-bxs">Now -  CS201 Class</a></string>
+    <string name="Next"><a href="https://meet.google.com/cso-hyuj-xuq">Next -  MA201 Class</a></string>
 </resources>

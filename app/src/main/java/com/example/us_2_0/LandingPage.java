@@ -14,6 +14,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
+import android.text.method.LinkMovementMethod;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -29,6 +30,7 @@ import java.util.ArrayList;
 public class LandingPage extends AppCompatActivity {
 
     private ActionBarDrawerToggle actionBarDrawerToggle;
+    TextView textView;
 
 
     @RequiresApi(api = Build.VERSION_CODES.O)
@@ -37,6 +39,8 @@ public class LandingPage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_landing_page);
 
+        textView = findViewById(R.id.textView12);
+        textView.setMovementMethod(LinkMovementMethod.getInstance());
 
 
 
@@ -127,8 +131,9 @@ public class LandingPage extends AppCompatActivity {
         MenuInflater menuInflater = getMenuInflater();
         menuInflater.inflate(R.menu.action_bar_menu,menu);
         return super.onCreateOptionsMenu(menu);
-    }
 
+
+    }
 }
 
 
