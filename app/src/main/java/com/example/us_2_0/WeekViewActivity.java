@@ -3,6 +3,7 @@ package com.example.us_2_0;
 
 
 import static com.example.us_2_0.CalendarUtils.daysInWeekArray;
+import static com.example.us_2_0.CalendarUtils.formattedTime;
 import static com.example.us_2_0.CalendarUtils.monthYearFromDate;
 
 import androidx.annotation.RequiresApi;
@@ -19,6 +20,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import java.time.LocalDate;
+import java.time.LocalTime;
 import java.util.ArrayList;
 
 public class WeekViewActivity extends AppCompatActivity implements CalendarAdapter.OnItemListener
@@ -36,6 +38,91 @@ public class WeekViewActivity extends AppCompatActivity implements CalendarAdapt
         initWidgets();
         CalendarUtils.selectedDate = LocalDate.now();
         setWeekView();
+
+        Event sampleEvent = new Event("Maths Assignment 1",LocalDate.of(2021,10,16), LocalTime.of(12,00,00));
+        Event.eventsList.add(sampleEvent);
+
+
+        Event sampleEvent1 = new Event("Physics Assignment 2",LocalDate.of(2021,10,16), LocalTime.of(12,00,00));
+        Event.eventsList.add(sampleEvent1);
+
+
+        Event sampleEvent2 = new Event("Electronics Assignment 2",LocalDate.of(2021,10,16), LocalTime.of(12,00,00));
+        Event.eventsList.add(sampleEvent2);
+
+
+        Event sampleEvent3 = new Event("Maths Assignment 2",LocalDate.of(2021,10,18), LocalTime.of(12,00,00));
+        Event.eventsList.add(sampleEvent3);
+
+
+        Event sampleEvent4 = new Event("Electronics Assignment 3",LocalDate.of(2021,10,20), LocalTime.of(12,00,00));
+        Event.eventsList.add(sampleEvent4);
+
+
+        Event sampleEvent5 = new Event("Physics Assignment 3",LocalDate.of(2021,10,17), LocalTime.of(20,00,00));
+        Event.eventsList.add(sampleEvent5);
+
+
+        Event sampleEvent6 = new Event("Maths Assignment 3",LocalDate.of(2021,10,24), LocalTime.of(12,00,00));
+        Event.eventsList.add(sampleEvent6);
+
+
+        Event sampleEvent7 = new Event("Electronics Quiz 1",LocalDate.of(2021,10,23), LocalTime.of(10,00,00));
+        Event.eventsList.add(sampleEvent7);
+
+
+        Event sampleEvent8 = new Event("Physics Quiz 1",LocalDate.of(2021,10,21), LocalTime.of(10,00,00));
+        Event.eventsList.add(sampleEvent8);
+
+
+        Event sampleEvent9 = new Event("Maths Quiz 1",LocalDate.of(2021,10,22), LocalTime.of(10,00,00));
+        Event.eventsList.add(sampleEvent9);
+
+
+        Event sampleEvent10 = new Event("Maths lecture",LocalDate.of(2021,10,14), LocalTime.of(8,00,00));
+        Event.eventsList.add(sampleEvent10);
+
+        Event sampleEvent11 = new Event("Electronics lecture",LocalDate.of(2021,10,14), LocalTime.of(10,00,10));
+        Event.eventsList.add(sampleEvent11);
+
+
+        Event sampleEvent12 = new Event("Physics lecture",LocalDate.of(2021,10,15), LocalTime.of(14,30,00));
+        Event.eventsList.add(sampleEvent12);
+
+
+        Event sampleEvent13 = new Event("Maths lecture",LocalDate.of(2021,10,15), LocalTime.of(16,00,00));
+        Event.eventsList.add(sampleEvent13);
+
+        Event sampleEvent14 = new Event("Electronics lecture",LocalDate.of(2021,10,13), LocalTime.of(8,30,00));
+        Event.eventsList.add(sampleEvent14);
+
+
+        Event sampleEvent15 = new Event("Physics lecture",LocalDate.of(2021,10,13), LocalTime.of(10,00,00));
+        Event.eventsList.add(sampleEvent15);
+
+
+        Event sampleEvent16 = new Event("Maths lecture",LocalDate.of(2021,10,24), LocalTime.of(10,10,10));
+        Event.eventsList.add(sampleEvent16);
+
+        Event sampleEvent17 = new Event("Electronics lecture",LocalDate.of(2021,10,24), LocalTime.of(10,10,10));
+        Event.eventsList.add(sampleEvent17);
+
+
+        Event sampleEvent18 = new Event("Physics lecture",LocalDate.of(2021,10,12), LocalTime.of(8,30,00));
+        Event.eventsList.add(sampleEvent18);
+
+
+        Event sampleEvent19 = new Event("Maths lecture",LocalDate.of(2021,10,12), LocalTime.of(10,00,00));
+        Event.eventsList.add(sampleEvent19);
+
+        Event sampleEvent20 = new Event("Electronics lecture",LocalDate.of(2021,10,19), LocalTime.of(10,10,10));
+        Event.eventsList.add(sampleEvent20);
+
+
+        Event sampleEvent21 = new Event("Physics lecture",LocalDate.of(2021,10,19), LocalTime.of(10,10,10));
+        Event.eventsList.add(sampleEvent21);
+
+
     }
 
     private void initWidgets()
