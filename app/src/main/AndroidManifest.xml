@@ -12,6 +12,12 @@
         android:theme="@style/Theme.US_2_0"
         tools:replace="android:allowBackup,android:theme">
         <activity
+            android:name=".EventEditActivity"
+            android:exported="true" />
+        <activity
+            android:name=".WeekViewActivity"
+            android:exported="true" />
+        <activity
             android:name=".LandingPage"
             android:exported="false" />
         <activity
