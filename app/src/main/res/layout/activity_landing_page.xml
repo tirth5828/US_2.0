@@ -5,7 +5,7 @@
     android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#2196F3"
+    android:background="#000000"
     android:backgroundTint="#ECECEC"
     android:foregroundTint="#8C7676"
     tools:context=".MainActivity">
@@ -20,20 +20,18 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="#119499"
+            android:background="#4D5353"
             android:theme="@style/ThemeOverlay.AppCompat.DayNight"
-            app:titleTextColor="#FFFFFF"
             app:subtitleTextColor="#FFFFFF"
+            app:titleTextColor="#FFFFFF"
 
             />
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="1">
-
-
-        </androidx.constraintlayout.widget.ConstraintLayout>
+            android:layout_weight="1"
+            android:background="#000000"/>
 
     </LinearLayout>
 
@@ -42,9 +40,9 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="start"
-        app:menu="@menu/navigation_menu"
         android:background="#FFFFFF"
-        app:itemTextColor="#000000"/>
+        app:itemTextColor="#000000"
+        app:menu="@menu/navigation_menu" />
 
 
 </androidx.drawerlayout.widget.DrawerLayout>

@@ -2,23 +2,27 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
+        android:id="@+id/Notifications"
+        android:title="Notifications"
+        />
+    <item
+        android:id="@+id/This_Week"
+        android:title="This Week"
+        />
+    <item
+        android:id="@+id/This_Month"
+        android:title="This Month"
+        />
+    <item
         android:id="@+id/share"
         android:title="Share"
         />
     <item
-        android:id="@+id/more"
-        android:title="More Apps"
-        />
-    <item
-        android:id="@+id/rate"
+        android:id="@+id/Feedback"
         android:title="Feedback"
         />
     <item
         android:id="@+id/privacy"
         android:title="Privacy"
         />
-
-
-
-
 </menu>

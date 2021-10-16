@@ -62,15 +62,23 @@ public class LandingPage extends AppCompatActivity {
                 startActivity(Intent.createChooser(myIntent,"Share using"));
                 break;
 
-            case R.id.more:
+            case R.id.Notifications:
 
-
-                //onclick more
+                Intent Notify = new Intent(LandingPage.this, Notification.class);
+                startActivity(Notify);
                 break;
 
-            case R.id.rate:
+            case R.id.Feedback:
 
                 //onclick rate
+                break;
+
+            case R.id.This_Week:
+                // onclick This_Week
+                break;
+
+            case R.id.This_Month:
+                // onclick This_Month
                 break;
 
             case R.id.privacy:

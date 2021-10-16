@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="176dp"
-    android:background="#119499"
+    android:background="#000000"
     android:gravity="center_vertical"
     android:orientation="vertical">
 
@@ -11,7 +13,9 @@
         android:layout_height="70dp"
         android:background="@android:color/transparent"
         android:contentDescription="todo"
-        android:src="@mipmap/ic_launcher" />
+        android:src="@mipmap/ic_launcher"
+        app:srcCompat="@drawable/logo"
+        tools:srcCompat="@drawable/logo" />
 
     <TextView
         android:layout_width="match_parent"
