@@ -2,7 +2,13 @@
     <string name="app_name">Always High</string>
     <string name="drawer_open">Drawer Open</string>
     <string name="drawer_close">Drawer Close</string>
-    <string name="N1">Changed</string>
+    <string name="N1">Special session for finance profiles are arranged by finance club</string>
+    <string name="N2">Offline Collage is starting from 15 Nov for students who are interested</string>
+    <string name="N3">Parents Approval And Complete Vaccination is necessary to attend collage offline</string>
+    <string name="N4">Pre Med Term is starting from 18th Oct</string>
+    <string name="N5">Maths Tut 2 is uploaded on Moodle, No Due Date</string>
+    <string name="N6">Hack it How Hackathon is starting from 15th Oct</string>
+    <string name="N7">Extra class for CS201 on 14th Oct 12:00 PM</string>
     <string name="Now"><a href="https://meet.google.com/vdt-gysa-bxs">Now -  CS201 Class</a></string>
     <string name="Next"><a href="https://meet.google.com/cso-hyuj-xuq">Next -  MA201 Class</a></string>
     <string name="R1"><a href="https://drive.google.com/file/d/1c9C0ubLA0DcjGN4nAK-7G2kcw2liTFY9/view?usp=sharing">CS201</a></string>
