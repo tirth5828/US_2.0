@@ -100,14 +100,7 @@ public class LandingPage extends AppCompatActivity {
                 startActivity(new Intent(LandingPage.this,WeekViewActivity.class));
                 break;
 
-            case R.id.This_Month:
-                startActivity(new Intent(LandingPage.this,MonthViewActivity.class));
-                break;
 
-            case R.id.privacy:
-
-                //onclick privacy
-                break;
         }
 
     }
@@ -120,11 +113,7 @@ public class LandingPage extends AppCompatActivity {
 
         else if (item.getItemId()==R.id.about){
 
-            //onclick for about
-
-        }else if (item.getItemId()==R.id.disclaimer){
-
-            //onclick for disclaimer
+            startActivity(new Intent(LandingPage.this,AboutUs.class));
 
         }
         return super.onOptionsItemSelected(item);

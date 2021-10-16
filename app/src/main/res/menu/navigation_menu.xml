@@ -10,10 +10,6 @@
         android:title="This Week"
         />
     <item
-        android:id="@+id/This_Month"
-        android:title="This Month"
-        />
-    <item
         android:id="@+id/Resources"
         android:title="Resources"
         />
@@ -24,9 +20,5 @@
     <item
         android:id="@+id/Feedback"
         android:title="Feedback"
-        />
-    <item
-        android:id="@+id/privacy"
-        android:title="Privacy"
         />
 </menu>

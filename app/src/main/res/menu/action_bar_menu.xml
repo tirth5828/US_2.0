@@ -4,15 +4,7 @@
 
     <item
         android:id="@+id/about"
-        android:title="About"
+        android:title="About Us"
         android:iconTint="#5E5E5E"
         app:showAsAction="never"/>
-    <item
-        android:id="@+id/disclaimer"
-        android:title="Disclaimer"
-        android:iconTint="#5E5E5E"
-        app:showAsAction="never"/>
-
-
-
 </menu>

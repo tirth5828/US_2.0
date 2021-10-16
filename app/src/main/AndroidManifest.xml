@@ -12,6 +12,9 @@
         android:theme="@style/Theme.US_2_0"
         tools:replace="android:allowBackup,android:theme,android:icon,android:roundIcon">
         <activity
+            android:name=".AboutUs"
+            android:exported="false" />
+        <activity
             android:name=".Resources"
             android:exported="false" />
         <activity
