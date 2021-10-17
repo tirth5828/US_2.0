@@ -1,11 +1,11 @@
 # <p style="text-align: center;"> **Always High** </p>
 
-Always is a Collage help app cattered towards helping collage students in managing their day- to day hassle 
+Always High is a College help app cattered towards helping the college students in managing their day-to-day hassle!
 
 ## Problem :
 
 In the online mode of education, the students are confused by working on many different platforms. The main problem in using all
-these different platforms is that they have to check all the places from time to time for any quizzes, assignment submissions,
+these different platforms is that they have to check many places from time to time for quizzes, assignment submissions,
 timetable changes and much more. 
 
 ## Solution :
@@ -13,7 +13,7 @@ timetable changes and much more.
 We have developed an app that can be used to solve the problem described above and on top of that it has many more features which
 will ease out the learning experience of the students in online mode.
 
-To solve the problem stated above our app has a notification Board that notifies the students about the upcoming quizzes and
+To solve the problem, our app has a Notification Board that notifies the students about the upcoming quizzes and
 assignments that are pending. The app also reminds you of the ongoing class and also provide you with the meet link of the same. 
 
 Sometimes the faculty may postpone or prepone the class and for that, we have given them edit access to the timetable. If any
