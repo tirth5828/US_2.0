@@ -26,7 +26,7 @@ One of the coolest features of this app is that it has Password-less login, whic
 the password every time you open the app. At first, you just need to log in for the first time with an OTP and in the 
 future, the app will log you in with your biometric lock.
 
-## Future Developnents :
+## Future Developments :
 
 1. Resources for the preparation will be added which includes notes, useful videos, important web pages, previous year
 papers and much more.
