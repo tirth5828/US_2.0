@@ -33,15 +33,18 @@ papers and much more.
 2. Assignment submission will be added on this app itself.
 3. Notifications for Extra/Fun activities {All events-Non academic} (club events,scheduled occasion celebrations, birthdays)
 
-## Contributing
+## Contributing :
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 Please make sure to update tests as appropriate.
 
-## **Managed By : -** 
+## Managed By : 
 - [TIRTH JOSHI](https://github.com/tirth5828)
 - [FORAM PATEL](https://github.com/foram-patel-0201)
 - [ANISHA KATIYAR](https://github.com/ani14kay)
 - [JAYANT ASUDHANI](https://github.com/jayant0121)
+
+## Video :
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/2mZoqQmxJCY/0.jpg)](http://www.youtube.com/watch?v=2mZoqQmxJCY "Always High")
 
 
 ## License
